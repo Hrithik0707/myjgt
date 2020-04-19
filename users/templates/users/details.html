@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Your Responses</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>Reports</th>
+    <th>Team_lead</th>
+    <th>No_of_hours</th>
+    <th>Todays_progress</th>
+    <th>Todays_document</th>
+    <th>Concern</th>
+    <th>Next_document</th>
+    <th>Next_plan</th>
+  </tr>
+  <tr>
+    <td>{{user_pr.Name}}</td>
+    <td>{{user_pr.Date}}</td>
+    <td>{{user_pr.Reports}}</td>
+    <td>{{user_pr.Team_lead}}</td>
+    <td>{{user_pr.No_of_hours}}</td>
+    <td>{{user_pr.Todays_progress}}</td>
+    <td>{{user_pr.Todays_document}}</td>
+    <td>{{user_pr.Concern}}</td>
+    <td>{{user_pr.Next_document}}</td>
+    <td>{{user_pr.Next_plan}}</td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
